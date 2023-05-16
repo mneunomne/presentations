@@ -11,7 +11,7 @@ style: |
 footer: '16.05.2023 - digital media - hfk bremen - [mneunomne.github.io/presentations/expanded_material_imaginaries.html](https://mneunomne.github.io/presentations/expanded_material_imaginaries.html)'
 ---
 
-## expanded Material imaginaries
+## expanded material imaginaries
 
 Initial research for the a possible future project.
 
@@ -60,7 +60,7 @@ Project started in the class *New Material Imaginaries* using ceramics as a spec
 ## next step
 
 - continue working with ceramics.
-- go beyond ceramics as a material and start thinking of its historical use as *pots*.
+- go beyond ceramics as a material and start to think of its historical use as *pots*.
 - think of itinerant *artifacts*, which can be independent from an exhibition space.
 - something *in network*.
 - something that deals with memory, storage, maybe sound. 
@@ -87,12 +87,12 @@ Understanding *ceramics pots* as an (almost) universal archaic storage "device".
 
 ## research
 
-### Pots in the zodiac: aquarius / wassermann
+### the aquarius / wassermann
 
 <div class="center-wrapper">
 	<div style="width: 40%;" class="center">
 		<div>
-			<img src="./assets/image_2.png"/>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Aquarius2.jpg"/>
 		</div>
 	</div>
 </div>
@@ -101,7 +101,7 @@ Understanding *ceramics pots* as an (almost) universal archaic storage "device".
 
 ## research
 
-### Pots in the zodiac: aquarius / wassermann
+### the aquarius / wassermann
 
 <div class="center-wrapper">
 	<div style="width: 40%;" class="center images-row">
