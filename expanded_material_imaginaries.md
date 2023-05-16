@@ -8,7 +8,7 @@ style: |
   a:hover, a:active, a:focus {text-decoration: none;}
   header a {color: #ffffff !important; font-size: 30px;}
   footer {color: white; opacity: 0.25; font-size: 80%;}
-footer: '16.05.2023 - digital media - hfk bremen'
+footer: '16.05.2023 - digital media - hfk bremen - [mneunomne.github.io/presentations/expanded_material_imaginaries.html](https://mneunomne.github.io/presentations/expanded_material_imaginaries.html)'
 ---
 
 ## expanded Material imaginaries
@@ -61,12 +61,15 @@ Project started in the class *New Material Imaginaries* using ceramics as a spec
 
 - continue working with ceramics.
 - go beyond ceramics as a material and start thinking of its historical use as *pots*.
+- think of itinerant *artifacts*, which can be independent from an exhibition space.
+- something *in network*.
+- something that deals with memory, storage, maybe sound. 
 
 ---
 
 ## research
 
-Understanding *ceramics pots* as an archaic storage "device".
+Understanding *ceramics pots* as an (almost) universal archaic storage "device".
 
 ---
 
@@ -114,8 +117,10 @@ Understanding *ceramics pots* as an archaic storage "device".
 
 ### pots and the "great flood"
 
+Great flood - digital age? idk...
+
 <div class="center-wrapper">
-	<div style="width: 80%;" class="center images-row">
+	<div style="width: 70%;" class="center images-row">
 		<div>
 			<img src="./assets/sign.png"/>
 			<small>Ancient Egypt - Dendera zodiac</small>
@@ -214,4 +219,3 @@ a set of devices that:
 
 ### thank you!
 
-and btw this slide was made using [marp](https://marp.app/)
