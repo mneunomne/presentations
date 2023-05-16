@@ -1,0 +1,246 @@
+/* @theme minimal */
+
+@import 'default';
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --blue: #148ec8;
+  --red:red;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-size: 100%;
+  font-family: 'Roboto Mono', monospace;
+  font-family: 'Space Mono', monospace;
+}
+
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.images-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 15px;
+}
+
+.radial-bg {
+  position: absolute;
+  top:-50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+  background: radial-gradient(circle,rgba(255,255,255,0.11) 0%,rgba(255,255,255,0) 50%);
+}
+
+.images-grid > div, .images-row > div {
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  position: relative;
+  overflow: inherit;
+}
+
+.lighten {
+  mix-blend-mode: lighten;
+}
+
+.images-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  z-index: 2;
+}
+
+.images-row {
+  display: flex;
+  grid-gap: 10px;
+}
+
+.images-row > div > small {
+  position: absolute;
+  bottom: -20px;
+  font-size: 10px;
+}
+
+.images-row img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.center-wrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+h1 {
+  font-size: 200%;
+  color: red;
+}
+
+h2 {
+  font-style: bold;
+  border-bottom: 1px solid;
+  color: red;
+  font-size: 110%;
+  font-weight: 400;
+}
+
+
+h3 {
+  display: inline-block;
+  color: var(--blue) !important;
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+h3 em {
+  display: inline-block;
+  color: white !important;
+}
+
+section {
+  justify-content: normal;
+}
+
+
+html, body, html {
+  font-family: 'Roboto Flex', monospace !important;
+  font-size: 14px;
+}
+
+body {
+	background: #1f1f1f;
+	color: white;
+  margin: 2em;
+}
+
+code {
+	/* background-color: rgb(255 255 255 / 20%); */
+  padding: 1px 3px;
+  border: 1px solid var(--red);
+  color: red;
+  border-radius: 0px;
+}
+
+blockquote {
+  font-size: smaller;
+}
+
+.headerlink {
+	display: none;
+}
+
+img {
+	max-width: 100%;
+  margin-right: 2em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: var(--blue);
+}
+
+ol {
+  color: var(--blue);
+}
+
+input[type="checkbox"] {
+  /* ...existing styles */
+  display: inline-flex;
+  place-content: center;
+  -webkit-appearance: none;
+  background-color: #fff;
+  margin: 0;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em black;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(0.7);
+}
+
+::selection {
+  background: #fff;
+  color: #000000;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+
+a:hover {
+  color: white;
+  text-decoration: underline !important;
+}
+
+ul li:before {
+  content: "-";
+  padding-right: 5px;
+}
+
+li.task-list-item:before {
+  content: "";
+  padding-right: 5px;
+  color: rgb(0, 255, 0);
+}
+
+h2 {
+	border-bottom: 1px solid red;
+  color: red;
+  padding-left: 4px;
+}
+
+pre {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1em 2.2em;
+  white-space: break-spaces;
+  font-family: 'Space Mono', monospace;
+}
+
+em {
+  color: var(--red);
+  /* color: rgb(255, 0, 0); */
+}
+
+strong {
+  color: var(--red);
+  border-bottom: 1px solid var(--red);
+}
