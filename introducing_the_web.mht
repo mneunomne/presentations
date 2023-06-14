@@ -1,0 +1,1238 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///private/var/folders/b_/dk34pqls2j97xtl4c2n2f1140000gn/T/99.html
+Subject: Notes
+Date: Wed, 14 Jun 2023 13:01:29 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--EwmNm6WB2aAvt1dPpsgk0HG0zItqpm7qFDS2QNYXIH----"
+
+
+------MultipartBoundary--EwmNm6WB2aAvt1dPpsgk0HG0zItqpm7qFDS2QNYXIH----
+Content-Type: text/html
+Content-ID: <frame-2D283A3B0EDAD3462C654D5D5BF1A47A@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///private/var/folders/b_/dk34pqls2j97xtl4c2n2f1140000gn/T/99.html
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
+"cid:css-0cb053fd-fd4f-443f-83be-abfdfd2c6959@mhtml.blink" /><link rel=3D"s=
+tylesheet" type=3D"text/css" href=3D"cid:css-c67e7540-d495-402e-ac23-09bdcd=
+04d5d9@mhtml.blink" />
+	<title>Notes</title>
+	<link rel=3D"preconnect" href=3D"https://fonts.googleapis.com/">
+	<link rel=3D"preconnect" href=3D"https://fonts.gstatic.com/" crossorigin=
+=3D"">
+	<link href=3D"https://fonts.googleapis.com/css2?family=3DInconsolata:wght@=
+300&amp;family=3DRoboto+Mono:wght@400;500;700&amp;display=3Dswap" rel=3D"st=
+ylesheet">
+	<link href=3D"https://fonts.googleapis.com/css2?family=3DInconsolata:wght@=
+300&amp;family=3DRoboto:wght@400;500;700&amp;display=3Dswap" rel=3D"stylesh=
+eet">
+	<link href=3D"https://fonts.googleapis.com/css2?family=3DSpace+Mono&amp;di=
+splay=3Dswap" rel=3D"stylesheet">
+	<link href=3D"https://fonts.googleapis.com/css2?family=3DEB+Garamond:ital@=
+0;1&amp;display=3Dswap" rel=3D"stylesheet">
+=09
+<title>introducing_the_web</title>
+</head>
+<body>
+	<h1 id=3D"introducing-the-web">introducing.. <em>the web</em><a class=3D"h=
+eaderlink" href=3D"file:///private/var/folders/b_/dk34pqls2j97xtl4c2n2f1140=
+000gn/T/99.html#introducing-the-web" title=3D"Permanent link">=EE=85=97</a>=
+</h1>
+<p>workshop / meeting for introduction of web design concepts and practice.=
+</p>
+<p><strong>introduction</strong></p>
+<p>the purpuse of this meeting / workshop is to create an enveiroment for u=
+s to exchange some knowledge for web development. I didn=E2=80=99t prepare =
+much for today, I won=E2=80=99t use any slides, I=E2=80=99ll just go-with-t=
+he-flow trying to break the initial barriers for people who want to learn a=
+bout web development.</p>
+<p>You are welcome to come show your own projects, problems, things u have =
+learned, specially for those who also have some web experience can show wha=
+t are you up to.</p>
+<p>As a sneak peak, I will show what I am currently working on, and maybe i=
+f we can make more meetings we can eventually reach the point where you can=
+ also make your own website with a content management system using nuxt + n=
+etlify. Hopefully this can help you get some juicy jobs in the future in ti=
+mes of necessity.</p>
+<p><strong>tools we will use</strong></p>
+<ul>
+<li>visual studio code</li>
+<li>chromium based browser (chrome, brave, edge, etc=E2=80=A6)</li>
+</ul>
+<p><strong>plan</strong></p>
+<ul>
+<li>what is the browser</li>
+<li>basics of client/server</li>
+<li>what is html/css/js</li>
+<li>the DOM + important javascript concepts</li>
+<li>practice together with whatever stupid idea for a quick webpage</li>
+<li>publish it using github pages (intro to github if needed)</li>
+</ul>
+<h3 id=3D"what-is-the-browser">what is the browser?<a class=3D"headerlink" =
+href=3D"file:///private/var/folders/b_/dk34pqls2j97xtl4c2n2f1140000gn/T/99.=
+html#what-is-the-browser" title=3D"Permanent link">=EE=85=97</a></h3>
+<p><em>concept of the browser</em></p>
+<p>a sandbox to protect your computer from the garbage that the internet is=
+. it expects specific commands and markup language in order for it to rende=
+r, and also follows specific protocols to use other things on your device, =
+such as gps, browser info, microphone, webcam etc.</p>
+<p><em>local storage</em></p>
+<p><em>cookies</em></p>
+<p><em>network</em></p>
+<p><em>console</em></p>
+<blockquote>
+<p>with the browser show how the files are requested, how they are loaded, =
+check the sources of a webpage, check how to debug things.</p>
+<p>go to the console and show how javascript commands work.</p>
+</blockquote>
+<p>show how css elements are associated with html elements.</p>
+<p><em>client/server</em></p>
+<p>everything that happens within the browser is what we call =E2=80=98clie=
+nt=E2=80=99. the =E2=80=98server=E2=80=99 is usually the computer that is r=
+unning somewhere else, the requests, processing the database and <em>servin=
+g</em> the data to the <em>client</em>.</p>
+<h3 id=3D"what-are-these-languages-that-make-up-the-web-enveiroment-html-js=
+-css">what are these languages that make up the web enveiroment? html, js, =
+css<a class=3D"headerlink" href=3D"file:///private/var/folders/b_/dk34pqls2=
+j97xtl4c2n2f1140000gn/T/99.html#what-are-these-languages-that-make-up-the-w=
+eb-enveiroment-html-js-css" title=3D"Permanent link">=EE=85=97</a></h3>
+<p><em>html</em></p>
+<p>html (HyperText Markup Language) is a markup language. another markup la=
+nguages is xml for example. what makes html special is the fact that the br=
+owser has the understanding that <code>&lt;h1&gt;&lt;/h1&gt;</code> means f=
+irst heading, <code>&lt;p&gt;</code> paragraph, <code>&lt;b&gt;</code> bold=
+, and so on. </p>
+<p>So html is basically a normal markup language that hints onthe browser h=
+ow it shouild be rendered and visually structured.</p>
+<p><em>css</em> </p>
+<p>css (Cascading Style Sheets) is a way to further customise visually on t=
+op of the standard stylying which is asssociated with html. (show how html =
+elements already have default css styling, and css code serves to work on t=
+op of these default settings)</p>
+<p>css works in query to identify the html elements</p>
+<p><em>js</em></p>
+<p>javascript is the programming language that can manipulate html content.=
+ </p>
+<blockquote>
+<p>When we talk about javascriot we are usually talking about <em>client-si=
+de</em>, but you can run javascript on the server side, which is <em>node.j=
+s</em>.</p>
+</blockquote>
+<p><em>DOM</em></p>
+<p><em>The HTML DOM Tree of Objects</em></p>
+<p><img alt=3D"" src=3D"https://www.w3schools.com/js/pic_htmltree.gif"></p>
+<p>the DOM (Document Object Model) element is the core for one to understan=
+d how the browser handles the html data and how we can manipulate it. It is=
+ the key elements through which we can understand the relationship between =
+javascript and html.</p>
+<p>through the concept of the DOM we can see that the html is actually a da=
+ta object</p>
+<h3 id=3D"javascript-object-array-variables-functions">Javascript: Object, =
+Array, Variables, Functions<a class=3D"headerlink" href=3D"file:///private/=
+var/folders/b_/dk34pqls2j97xtl4c2n2f1140000gn/T/99.html#javascript-object-a=
+rray-variables-functions" title=3D"Permanent link">=EE=85=97</a></h3>
+<p>diffent from some other programming language, javascript has <em>dynamic=
+ typing</em>, which means any variable can be anything. which gives us a lo=
+t of freedom, and in the end everything can be an object. </p>
+<p><em>diffent ways of declaring things in javascript</em> </p>
+<p><em>compiling javascript</em></p>
+<p><em>how to load script into html</em></p>
+<h3 id=3D"server-client">Server / Client<a class=3D"headerlink" href=3D"fil=
+e:///private/var/folders/b_/dk34pqls2j97xtl4c2n2f1140000gn/T/99.html#server=
+-client" title=3D"Permanent link">=EE=85=97</a></h3>
+<p>show that the browser can=E2=80=99t just open a web page and run javascr=
+ipt directly</p>
+<p><strong>practicing</strong></p>
+<ul>
+<li>have some stupid idea (what can be the theme? dragons?)</li>
+<li>create simple html page</li>
+<li>link between different pages</li>
+<li>manipulate the dom</li>
+<li>change style with css</li>
+<li>use of external libraries (e.g.: <em>jquery</em>)</li>
+<li>sneak peak of more advanced libraries such as <em>vue.js</em> and <em>s=
+velte</em></li>
+<li>more advanced css with animations</li>
+<li>how to deploy your web page on github</li>
+</ul>
+<h3 id=3D"libraries-frameworks">Libraries, Frameworks<a class=3D"headerlink=
+" href=3D"file:///private/var/folders/b_/dk34pqls2j97xtl4c2n2f1140000gn/T/9=
+9.html#libraries-frameworks" title=3D"Permanent link">=EE=85=97</a></h3>
+<p><em>NPM (Node Package Modules)</em> (essential! vizualise npm modules wi=
+th <a href=3D"http://anvaka.github.io/allnpmviz3d/">allnpmviz3d</a>) </p>
+<p><em>jQuery</em> (not really used in bigger projects anymore)</p>
+<p><em>Three.js</em> (3d web yayy, really like working with it. It has many=
+ sub-libraries such as I like to use such as <em>AFrame</em>, <em>3d-force-=
+graph</em>, etc)</p>
+<p><em>vue.js</em> (much better than react in my opnion, and there are many=
+ job opportunities to work with it)</p>
+<p><em>React</em> (made by facebook meh, but maybe the most used library st=
+ill?)</p>
+<p><em>Svelte</em> (never used it, but seems really cool and getting more p=
+opular)</p>
+<p><em>Bootstrap</em> (I never liked using it, but very usuful for styiling=
+ very common problems for traditional webpages)</p>
+<p><em>Angular</em> (made by google, bother even remember this name)</p>
+<p><em>TypeScript</em> (a more =E2=80=98strict=E2=80=99 javascript, never u=
+sed it, but seems super boring)</p>
+<p><em>Netlify</em> (company that provides serverless backend, free for sma=
+ll use-cases)</p>
+<h3 id=3D"useful-resources">Useful resources<a class=3D"headerlink" href=3D=
+"file:///private/var/folders/b_/dk34pqls2j97xtl4c2n2f1140000gn/T/99.html#us=
+eful-resources" title=3D"Permanent link">=EE=85=97</a></h3>
+<ul>
+<li><a href=3D"https://www.w3schools.com/js/js_htmldom.asp">w3schools</a></=
+li>
+<li>github co-pilot (its free for students!)</li>
+</ul>
+
+</body></html>
+------MultipartBoundary--EwmNm6WB2aAvt1dPpsgk0HG0zItqpm7qFDS2QNYXIH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-0cb053fd-fd4f-443f-83be-abfdfd2c6959@mhtml.blink
+
+@charset "utf-8";
+
+body { max-width: 980px; margin: 16px auto; }
+
+body .markdown-body { padding: 45px; }
+
+@font-face { font-family: fontawesome-mini; src: url("data:font/woff;charse=
+t=3Dutf-8;base64,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") format("woff"); }
+
+.markdown-body { text-size-adjust: 100%; color: rgb(51, 51, 51); overflow: =
+hidden; font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesa=
+ns, sans-serif; font-size: 16px; line-height: 1.6; overflow-wrap: break-wor=
+d; }
+
+.markdown-body a { background: transparent; }
+
+.markdown-body a:active, .markdown-body a:hover { outline: 0px; }
+
+.markdown-body b, .markdown-body strong { font-weight: bold; }
+
+.markdown-body mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); fo=
+nt-style: italic; font-weight: bold; }
+
+.markdown-body sub, .markdown-body sup { font-size: 75%; line-height: 0; po=
+sition: relative; vertical-align: baseline; }
+
+.markdown-body sup { top: -0.5em; }
+
+.markdown-body sub { bottom: -0.25em; }
+
+.markdown-body h1 { font-size: 2em; margin: 0.67em 0px; }
+
+.markdown-body img { border: 0px; }
+
+.markdown-body hr { box-sizing: content-box; height: 0px; }
+
+.markdown-body pre { overflow: auto; }
+
+.markdown-body code, .markdown-body kbd, .markdown-body pre, .markdown-body=
+ samp { font-family: monospace, monospace; font-size: 1em; }
+
+.markdown-body input { color: inherit; font: inherit; margin: 0px; }
+
+.markdown-body html input[disabled] { cursor: default; }
+
+.markdown-body input { line-height: normal; }
+
+.markdown-body input[type=3D"checkbox"] { box-sizing: border-box; padding: =
+0px; }
+
+.markdown-body table { border-collapse: collapse; border-spacing: 0px; }
+
+.markdown-body td, .markdown-body th { padding: 0px; }
+
+.markdown-body .codehilitetable, .markdown-body .highlighttable { border: 0=
+px; border-spacing: 0px; }
+
+.markdown-body .codehilitetable tr, .markdown-body .highlighttable { border=
+: 0px; }
+
+.markdown-body .codehilitetable pre, .markdown-body .codehilitetable div.co=
+dehilite, .markdown-body .highlighttable pre, .markdown-body .highlighttabl=
+e div.highlight { margin: 0px; }
+
+.markdown-body .linenos, .markdown-body .code, .markdown-body .codehiliteta=
+ble td, .markdown-body .highlighttable td { border: 0px; padding: 0px; }
+
+.markdown-body td:not(.linenos) .linenodiv { padding: 0px !important; }
+
+.markdown-body .code { width: 100%; }
+
+.markdown-body .linenos div pre, .markdown-body .linenodiv pre, .markdown-b=
+ody .linenodiv { border: 0px; border-radius: 3px 0px 0px 3px; }
+
+.markdown-body .code div pre, .markdown-body .code div { border: 0px; borde=
+r-radius: 0px 3px 3px 0px; }
+
+.markdown-body * { box-sizing: border-box; }
+
+.markdown-body input { font: 13px / 1.4 Helvetica, arial, freesans, clean, =
+sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+.markdown-body a { color: rgb(65, 131, 196); text-decoration: none; }
+
+.markdown-body a:hover, .markdown-body a:focus, .markdown-body a:active { t=
+ext-decoration: underline; }
+
+.markdown-body hr { height: 0px; margin: 15px 0px; overflow: hidden; backgr=
+ound: transparent; border-width: 0px 0px 1px; border-top-style: initial; bo=
+rder-right-style: initial; border-left-style: initial; border-top-color: in=
+itial; border-right-color: initial; border-left-color: initial; border-imag=
+e: initial; border-bottom-style: solid; border-bottom-color: rgb(221, 221, =
+221); }
+
+.markdown-body hr::before, .markdown-body hr::after { display: table; conte=
+nt: " "; }
+
+.markdown-body hr::after { clear: both; }
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3, .markdown-body h4,=
+ .markdown-body h5, .markdown-body h6 { margin-top: 15px; margin-bottom: 15=
+px; line-height: 1.1; }
+
+.markdown-body h1 { font-size: 30px; }
+
+.markdown-body h2 { font-size: 21px; }
+
+.markdown-body h3 { font-size: 16px; }
+
+.markdown-body h4 { font-size: 14px; }
+
+.markdown-body h5 { font-size: 12px; }
+
+.markdown-body h6 { font-size: 11px; }
+
+.markdown-body blockquote { margin: 0px; }
+
+.markdown-body ul, .markdown-body ol { padding: 0px; margin-top: 0px; margi=
+n-bottom: 0px; }
+
+.markdown-body ol ol, .markdown-body ul ol { list-style-type: lower-roman; =
+}
+
+.markdown-body ul ul ol, .markdown-body ul ol ol, .markdown-body ol ul ol, =
+.markdown-body ol ol ol { list-style-type: lower-alpha; }
+
+.markdown-body dd { margin-left: 0px; }
+
+.markdown-body code, .markdown-body pre, .markdown-body samp { font-family:=
+ Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 12px; }
+
+.markdown-body pre { margin-top: 0px; margin-bottom: 0px; }
+
+.markdown-body kbd { background-color: rgb(231, 231, 231); background-image=
+: linear-gradient(rgb(254, 254, 254), rgb(231, 231, 231)); background-repea=
+t: repeat-x; border-radius: 2px; border: 1px solid rgb(207, 207, 207); colo=
+r: rgb(0, 0, 0); padding: 3px 5px; font: 11px Consolas, "Liberation Mono", =
+Menlo, Courier, monospace; display: inline-block; }
+
+.markdown-body > :first-child { margin-top: 0px !important; }
+
+.markdown-body > :last-child { margin-bottom: 0px !important; }
+
+.markdown-body .headerlink { font: 400 16px fontawesome-mini; vertical-alig=
+n: middle; margin-left: -16px; float: left; display: inline-block; text-dec=
+oration: none; opacity: 0; color: rgb(51, 51, 51); }
+
+.markdown-body .headerlink:focus { outline: none; }
+
+.markdown-body h1 .headerlink { margin-top: 0.8rem; }
+
+.markdown-body h2 .headerlink, .markdown-body h3 .headerlink { margin-top: =
+0.6rem; }
+
+.markdown-body h4 .headerlink { margin-top: 0.2rem; }
+
+.markdown-body h5 .headerlink, .markdown-body h6 .headerlink { margin-top: =
+0px; }
+
+.markdown-body .headerlink:hover, .markdown-body h1:hover .headerlink, .mar=
+kdown-body h2:hover .headerlink, .markdown-body h3:hover .headerlink, .mark=
+down-body h4:hover .headerlink, .markdown-body h5:hover .headerlink, .markd=
+own-body h6:hover .headerlink { opacity: 1; text-decoration: none; }
+
+.markdown-body h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: =
+1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+
+.markdown-body h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: =
+1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+
+.markdown-body h3 { font-size: 1.5em; line-height: 1.43; }
+
+.markdown-body h4 { font-size: 1.25em; }
+
+.markdown-body h5 { font-size: 1em; }
+
+.markdown-body h6 { font-size: 1em; color: rgb(119, 119, 119); }
+
+.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-b=
+ody ol, .markdown-body dl, .markdown-body table, .markdown-body pre, .markd=
+own-body .admonition { margin-top: 0px; margin-bottom: 16px; }
+
+.markdown-body hr { height: 4px; padding: 0px; margin: 16px 0px; background=
+-color: rgb(231, 231, 231); border: 0px none; }
+
+.markdown-body ul, .markdown-body ol { padding-left: 2em; }
+
+.markdown-body ul ul, .markdown-body ul ol, .markdown-body ol ol, .markdown=
+-body ol ul { margin-top: 0px; margin-bottom: 0px; }
+
+.markdown-body li > p { margin-top: 16px; }
+
+.markdown-body dl { padding: 0px; }
+
+.markdown-body dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font=
+-style: italic; font-weight: bold; }
+
+.markdown-body dl dd { padding: 0px 16px; margin-bottom: 16px; }
+
+.markdown-body blockquote { padding: 0px 15px; color: rgb(119, 119, 119); b=
+order-left: 4px solid rgb(221, 221, 221); }
+
+.markdown-body blockquote > :first-child { margin-top: 0px; }
+
+.markdown-body blockquote > :last-child { margin-bottom: 0px; }
+
+.markdown-body table { display: block; width: 100%; overflow: auto; word-br=
+eak: keep-all; }
+
+.markdown-body table th { font-weight: bold; }
+
+.markdown-body table th, .markdown-body table td { padding: 6px 13px; borde=
+r: 1px solid rgb(221, 221, 221); }
+
+.markdown-body table tr { background-color: rgb(255, 255, 255); border-top:=
+ 1px solid rgb(204, 204, 204); }
+
+.markdown-body table tr:nth-child(2n) { background-color: rgb(248, 248, 248=
+); }
+
+.markdown-body img { max-width: 100%; box-sizing: border-box; }
+
+.markdown-body code, .markdown-body samp { padding: 0.2em 0px; margin: 0px;=
+ font-size: 85%; background-color: rgba(0, 0, 0, 0.04); border-radius: 3px;=
+ }
+
+.markdown-body code::before, .markdown-body code::after { letter-spacing: -=
+0.2em; content: "=C2=A0"; }
+
+.markdown-body pre > code { padding: 0px; margin: 0px; font-size: 100%; wor=
+d-break: normal; white-space: pre; background: transparent; border: 0px; }
+
+.markdown-body .codehilite, .markdown-body .highlight { margin-bottom: 16px=
+; }
+
+.markdown-body .codehilite pre, .markdown-body .highlight pre, .markdown-bo=
+dy pre { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; =
+background-color: rgb(247, 247, 247); border-radius: 3px; }
+
+.markdown-body .codehilite pre, .markdown-body .highlight pre { margin-bott=
+om: 0px; word-break: normal; }
+
+.markdown-body pre { overflow-wrap: normal; }
+
+.markdown-body pre code { display: inline; max-width: initial; padding: 0px=
+; margin: 0px; overflow: initial; line-height: inherit; overflow-wrap: norm=
+al; background-color: transparent; border: 0px; }
+
+.markdown-body pre code::before, .markdown-body pre code::after { content: =
+normal; }
+
+.markdown-body .admonition { position: relative; border-radius: 3px; border=
+-width: 1px 1px 1px 6px; border-style: solid; border-color: rgb(224, 224, 2=
+24) rgb(224, 224, 224) rgb(224, 224, 224) rgb(51, 51, 51); border-image: in=
+itial; padding: 10px 10px 10px 30px; }
+
+.markdown-body .admonition table { color: rgb(51, 51, 51); }
+
+.markdown-body .admonition p { padding: 0px; }
+
+.markdown-body .admonition-title { font-weight: bold; margin: 0px; }
+
+.markdown-body .admonition > .admonition-title { color: rgb(51, 51, 51); }
+
+.markdown-body .attention > .admonition-title { color: rgb(166, 215, 150); =
+}
+
+.markdown-body .caution > .admonition-title { color: rgb(215, 167, 150); }
+
+.markdown-body .hint > .admonition-title { color: rgb(150, 198, 215); }
+
+.markdown-body .danger > .admonition-title { color: rgb(194, 95, 119); }
+
+.markdown-body .question > .admonition-title { color: rgb(150, 166, 215); }
+
+.markdown-body .note > .admonition-title { color: rgb(215, 200, 150); }
+
+.markdown-body .admonition::before, .markdown-body .attention::before, .mar=
+kdown-body .caution::before, .markdown-body .hint::before, .markdown-body .=
+danger::before, .markdown-body .question::before, .markdown-body .note::bef=
+ore { font: 16px / 1.5 fontawesome-mini; user-select: none; color: rgb(51, =
+51, 51); position: absolute; left: 0px; top: 0px; padding-top: 10px; paddin=
+g-left: 10px; }
+
+.markdown-body .admonition::before { content: "=EF=81=96=C2=A0"; }
+
+.markdown-body .attention::before { content: "=EF=81=98=C2=A0"; color: rgb(=
+166, 215, 150); }
+
+.markdown-body .caution::before { content: "=EF=81=AA=C2=A0"; color: rgb(21=
+5, 167, 150); }
+
+.markdown-body .hint::before { content: "=EF=81=9A=C2=A0"; color: rgb(150, =
+198, 215); }
+
+.markdown-body .danger::before { content: "=EF=81=97=C2=A0"; color: rgb(194=
+, 95, 119); }
+
+.markdown-body .question::before { content: "=EF=81=99=C2=A0"; color: rgb(1=
+50, 166, 215); }
+
+.markdown-body .note::before { content: "=EF=81=80=C2=A0"; color: rgb(215, =
+200, 150); }
+
+.markdown-body .admonition::after { content: normal; }
+
+.markdown-body .attention { border-left: 6px solid rgb(166, 215, 150); }
+
+.markdown-body .caution { border-left: 6px solid rgb(215, 167, 150); }
+
+.markdown-body .hint { border-left: 6px solid rgb(150, 198, 215); }
+
+.markdown-body .danger { border-left: 6px solid rgb(194, 95, 119); }
+
+.markdown-body .question { border-left: 6px solid rgb(150, 166, 215); }
+
+.markdown-body .note { border-left: 6px solid rgb(215, 200, 150); }
+
+.markdown-body .admonition > :first-child { margin-top: 0px !important; }
+
+.markdown-body .admonition > :last-child { margin-bottom: 0px !important; }
+
+.markdown-body .progress { display: block; width: 300px; margin: 10px 0px; =
+height: 24px; border-radius: 3px; background-color: rgb(237, 237, 237); pos=
+ition: relative; box-shadow: rgba(0, 0, 0, 0.1) -1px 1px 3px inset; }
+
+.markdown-body .progress-label { position: absolute; text-align: center; fo=
+nt-weight: bold; width: 100%; margin: 0px; line-height: 24px; color: rgb(51=
+, 51, 51); text-shadow: rgb(254, 254, 254) 1px 1px 0px, rgb(254, 254, 254) =
+-1px -1px 0px, rgb(254, 254, 254) -1px 1px 0px, rgb(254, 254, 254) 1px -1px=
+ 0px, rgb(254, 254, 254) 0px 1px 0px, rgb(254, 254, 254) 0px -1px 0px, rgb(=
+254, 254, 254) 1px 0px 0px, rgb(254, 254, 254) -1px 0px 0px, rgb(0, 0, 0) 1=
+px 1px 2px; white-space: nowrap; overflow: hidden; -webkit-font-smoothing: =
+antialiased !important; }
+
+.markdown-body .progress-bar { height: 24px; float: left; border-radius: 3p=
+x; background-color: rgb(150, 198, 215); box-shadow: rgba(255, 255, 255, 0.=
+5) 0px 1px 0px inset, rgba(0, 0, 0, 0.1) 0px -1px 0px inset; background-siz=
+e: 30px 30px; background-image: linear-gradient(135deg, rgba(255, 255, 255,=
+ 0.4) 27%, transparent 27%, transparent 52%, rgba(255, 255, 255, 0.4) 52%, =
+rgba(255, 255, 255, 0.4) 77%, transparent 77%, transparent); }
+
+.markdown-body .progress-100plus .progress-bar { background-color: rgb(166,=
+ 215, 150); }
+
+.markdown-body .progress-80plus .progress-bar { background-color: rgb(198, =
+215, 150); }
+
+.markdown-body .progress-60plus .progress-bar { background-color: rgb(215, =
+200, 150); }
+
+.markdown-body .progress-40plus .progress-bar { background-color: rgb(215, =
+167, 150); }
+
+.markdown-body .progress-20plus .progress-bar { background-color: rgb(215, =
+150, 166); }
+
+.markdown-body .progress-0plus .progress-bar { background-color: rgb(194, 9=
+5, 119); }
+
+.markdown-body .candystripe-animate .progress-bar { animation: 3s linear 0s=
+ infinite normal none running animate-stripes; }
+
+@-webkit-keyframes animate-stripes {=20
+  0% { background-position: 0px 0px; }
+  100% { background-position: 60px 0px; }
+}
+
+@keyframes animate-stripes {=20
+  0% { background-position: 0px 0px; }
+  100% { background-position: 60px 0px; }
+}
+
+.markdown-body .gloss .progress-bar { box-shadow: rgba(255, 255, 255, 0.7) =
+0px 4px 12px inset, rgba(0, 0, 0, 0.05) 0px -12px 0px inset; }
+
+.markdown-body .critic_mark { background: rgb(255, 255, 0); }
+
+.markdown-body .critic_delete { color: rgb(200, 40, 41); text-decoration: l=
+ine-through; }
+
+.markdown-body .critic_insert { color: rgb(113, 140, 0); text-decoration: u=
+nderline; }
+
+.markdown-body .critic_comment { color: rgb(142, 144, 140); font-style: ita=
+lic; }
+
+.markdown-body .headeranchor { font: 16px / 1 fontawesome-mini; display: in=
+line-block; text-decoration: none; -webkit-font-smoothing: antialiased; use=
+r-select: none; }
+
+.headeranchor::before { content: "=EE=85=97"; }
+
+.markdown-body .task-list-item { list-style-type: none; }
+
+.markdown-body .task-list-item + .task-list-item { margin-top: 3px; }
+
+.markdown-body .task-list-item input { margin: 0px 4px 0.25em -20px; vertic=
+al-align: middle; }
+
+.markdown-body diagram-div, .markdown-body div.uml-sequence-diagram, .markd=
+own-body, div.uml-flowchart { overflow: auto; }
+
+@media only screen and (min-width: 480px) {
+  .markdown-body { font-size: 14px; }
+}
+
+@media only screen and (min-width: 768px) {
+  .markdown-body { font-size: 16px; }
+}
+
+@media print {
+  .markdown-body * { background: transparent !important; color: black !impo=
+rtant; filter: none !important; }
+  .markdown-body { font-size: 12pt; max-width: 100%; outline: none; border:=
+ 0px; }
+  .markdown-body a, .markdown-body a:visited { text-decoration: underline; =
+}
+  .markdown-body .headeranchor-link { display: none; }
+  .markdown-body a[href]::after { content: " (" attr(href) ")"; }
+  .markdown-body abbr[title]::after { content: " (" attr(title) ")"; }
+  .markdown-body .ir a::after, .markdown-body a[href^=3D"javascript:"]::aft=
+er, .markdown-body a[href^=3D"#"]::after { content: ""; }
+  .markdown-body pre { white-space: pre-wrap; overflow-wrap: break-word; }
+  .markdown-body pre, .markdown-body blockquote { border: 1px solid rgb(153=
+, 153, 153); padding-right: 1em; break-inside: avoid; }
+  .markdown-body .progress, .markdown-body .progress-bar { box-shadow: none=
+; }
+  .markdown-body .progress { border: 1px solid rgb(221, 221, 221); }
+  .markdown-body .progress-bar { height: 22px; border-right: 1px solid rgb(=
+221, 221, 221); }
+  .markdown-body tr, .markdown-body img { break-inside: avoid; }
+  .markdown-body img { max-width: 100% !important; }
+  .markdown-body p, .markdown-body h2, .markdown-body h3 { orphans: 3; wido=
+ws: 3; }
+  .markdown-body h2, .markdown-body h3 { break-after: avoid; }
+}
+------MultipartBoundary--EwmNm6WB2aAvt1dPpsgk0HG0zItqpm7qFDS2QNYXIH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c67e7540-d495-402e-ac23-09bdcd04d5d9@mhtml.blink
+
+@charset "utf-8";
+
+:root { --red: red; --adn-purple: #e900e9; }
+
+adn { color: var(--adn-purple); }
+
+html, body, html { font-family: "Roboto Mono", monospace; font-size: 14px; =
+}
+
+body { background: black; color: white; margin: 2em; }
+
+note { font-family: serif; overflow-wrap: break-word; display: block; line-=
+break: anywhere; color: rgb(92, 92, 92); }
+
+.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-b=
+ody ol, .markdown-body dl, .markdown-body table, .markdown-body pre, .markd=
+own-body .admonition { font-size: 14px; }
+
+.markdown-body { color: white; }
+
+code { padding: 1px 3px; border: 1px solid white; color: white; }
+
+blockquote { font-size: smaller; }
+
+.headerlink { display: none; }
+
+img { max-width: 100%; margin-right: 2em; }
+
+ul { list-style: none; }
+
+input[type=3D"checkbox"] { display: inline-flex; place-content: center; app=
+earance: none; background-color: rgb(255, 255, 255); margin: 0px; }
+
+input[type=3D"checkbox"]::before { content: ""; width: 0.65em; height: 0.65=
+em; transform: scale(0); transition: transform 120ms ease-in-out 0s; box-sh=
+adow: black 1em 1em inset; }
+
+input[type=3D"checkbox"]:checked::before { transform: scale(0.7); }
+
+::selection { background: rgb(255, 255, 255); color: rgb(0, 0, 0); }
+
+a { color: white; }
+
+a:hover { color: black; background: white; }
+
+ul li::before { content: "-"; padding-right: 5px; }
+
+li.task-list-item::before { content: ""; padding-right: 5px; color: rgb(0, =
+255, 0); }
+
+h2 { border-bottom: 1px solid red; color: red; padding-left: 4px; }
+
+pre { background: rgba(255, 255, 255, 0.1); padding: 1em 2.2em; white-space=
+: break-spaces; font-family: "Space Mono", monospace; }
+
+em { color: var(--red); }
+
+strong { color: var(--red); border-bottom: 1px solid var(--red); }
+
+h3 { display: inline-block; border-bottom: 1px solid white; color: white !i=
+mportant; }
+
+h3 em { display: inline-block; border-bottom: 1px solid white; color: white=
+ !important; }
+------MultipartBoundary--EwmNm6WB2aAvt1dPpsgk0HG0zItqpm7qFDS2QNYXIH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto+Mono:wght@400;500;700&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v31/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp9=
+s8WRL2l3WdycuJDETf.woff2") format("woff2"); unicode-range: U+102-103, U+110=
+-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+3=
+08-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v31/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp9=
+s8WRP2l3WdycuJDETf.woff2") format("woff2"); unicode-range: U+100-2AF, U+304=
+, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF,=
+ U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v31/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp9=
+s8WR32l3WdycuJDA.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+1=
+52-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U=
++2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSV0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE=
+0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSx0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B=
+1, U+2116; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSt0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSd0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+16=
+8-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329,=
+ U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSZ0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E0=
+0-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,=
+ U+A720-A7FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSh0me8iUI0.woff2=
+") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2=
+C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122,=
+ U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 5=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSV0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE=
+0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 5=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSx0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B=
+1, U+2116; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 5=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSt0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 5=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSd0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+16=
+8-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329,=
+ U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 5=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSZ0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E0=
+0-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,=
+ U+A720-A7FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 5=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSh0me8iUI0.woff2=
+") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2=
+C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122,=
+ U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 7=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSV0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE=
+0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 7=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSx0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B=
+1, U+2116; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 7=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSt0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 7=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSd0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+16=
+8-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329,=
+ U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 7=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSZ0me8iUI0lkQ.wo=
+ff2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E0=
+0-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F,=
+ U+A720-A7FF; }
+
+@font-face { font-family: "Roboto Mono"; font-style: normal; font-weight: 7=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/robotomono/v2=
+2/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSh0me8iUI0.woff2=
+") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2=
+C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122,=
+ U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--EwmNm6WB2aAvt1dPpsgk0HG0zItqpm7qFDS2QNYXIH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto:wght@400;500;700&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v31/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp9=
+s8WRL2l3WdycuJDETf.woff2") format("woff2"); unicode-range: U+102-103, U+110=
+-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+3=
+08-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v31/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp9=
+s8WRP2l3WdycuJDETf.woff2") format("woff2"); unicode-range: U+100-2AF, U+304=
+, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF,=
+ U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 300=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v31/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp9=
+s8WR32l3WdycuJDA.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+1=
+52-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U=
++2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu=
+92Fr1Mu72xKKTU1Kvnz.woff2") format("woff2"); unicode-range: U+460-52F, U+1C=
+80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu=
+92Fr1Mu5mxKKTU1Kvnz.woff2") format("woff2"); unicode-range: U+301, U+400-45=
+F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu=
+92Fr1Mu7mxKKTU1Kvnz.woff2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu=
+92Fr1Mu4WxKKTU1Kvnz.woff2") format("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu=
+92Fr1Mu7WxKKTU1Kvnz.woff2") format("woff2"); unicode-range: U+102-103, U+11=
+0-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+=
+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu=
+92Fr1Mu7GxKKTU1Kvnz.woff2") format("woff2"); unicode-range: U+100-2AF, U+30=
+4, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF=
+, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 400; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu=
+92Fr1Mu4mxKKTU1Kg.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+=
+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, =
+U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmEU9fCRc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+460-52F, =
+U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmEU9fABc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+301, U+40=
+0-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmEU9fCBc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+1F00-1FFF=
+; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmEU9fBxc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+370-3FF; =
+}
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmEU9fCxc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+102-103, =
+U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304=
+, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmEU9fChc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+100-2AF, =
+U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-=
+20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 500; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmEU9fBBc4AMP6lQ.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmWUlfCRc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+460-52F, =
+U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmWUlfABc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+301, U+40=
+0-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmWUlfCBc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+1F00-1FFF=
+; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmWUlfBxc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+370-3FF; =
+}
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmWUlfCxc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+102-103, =
+U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304=
+, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmWUlfChc4AMP6lbBP.woff2") format("woff2"); unicode-range: U+100-2AF, =
+U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-=
+20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Roboto; font-style: normal; font-weight: 700; fon=
+t-display: swap; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu=
+92Fr1MmWUlfBBc4AMP6lQ.woff2") format("woff2"); unicode-range: U+0-FF, U+131=
+, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-20=
+6F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;=
+ }
+------MultipartBoundary--EwmNm6WB2aAvt1dPpsgk0HG0zItqpm7qFDS2QNYXIH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Space+Mono&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: "Space Mono"; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/spacemono/v12/=
+i7dPIFZifjKcF5UAWdDRYE58RXi4EwSsbg.woff2") format("woff2"); unicode-range: =
+U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301=
+, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Space Mono"; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/spacemono/v12/=
+i7dPIFZifjKcF5UAWdDRYE98RXi4EwSsbg.woff2") format("woff2"); unicode-range: =
+U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20=
+AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Space Mono"; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/spacemono/v12/=
+i7dPIFZifjKcF5UAWdDRYEF8RXi4EwQ.woff2") format("woff2"); unicode-range: U+0=
+-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329,=
+ U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEF=
+F, U+FFFD; }
+------MultipartBoundary--EwmNm6WB2aAvt1dPpsgk0HG0zItqpm7qFDS2QNYXIH----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QL9wU6i1hGFJRvzr2Q.woff2") format=
+("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A6=
+40-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QL95U6i1hGFJRvzr2Q.woff2") format=
+("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QL9xU6i1hGFJRvzr2Q.woff2") format=
+("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QL9-U6i1hGFJRvzr2Q.woff2") format=
+("woff2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QL9yU6i1hGFJRvzr2Q.woff2") format=
+("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0=
+-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9=
+, U+20AB; }
+
+@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QL9zU6i1hGFJRvzr2Q.woff2") format=
+("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1E=
+F2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF=
+; }
+
+@font-face { font-family: "EB Garamond"; font-style: italic; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGFmQSNjdsmc35JDF1K5GRwUjcdlttVFm-rI7e8QL99U6i1hGFJRvw.woff2") format("w=
+off2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U=
++2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2=
+193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkCY9_WamXgHlIbvw.woff2") format("w=
+off2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-=
+A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkAI9_WamXgHlIbvw.woff2") format("w=
+off2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkCI9_WamXgHlIbvw.woff2") format("w=
+off2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkB49_WamXgHlIbvw.woff2") format("w=
+off2"); unicode-range: U+370-3FF; }
+
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkC49_WamXgHlIbvw.woff2") format("w=
+off2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A=
+1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U=
++20AB; }
+
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkCo9_WamXgHlIbvw.woff2") format("w=
+off2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-=
+1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "EB Garamond"; font-style: normal; font-weight: 4=
+00; font-display: swap; src: url("https://fonts.gstatic.com/s/ebgaramond/v2=
+6/SlGDmQSNjdsmc35JDF1K5E55YMjF_7DPuGi-6_RkBI9_WamXgHlI.woff2") format("woff=
+2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2D=
+C, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193=
+, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--EwmNm6WB2aAvt1dPpsgk0HG0zItqpm7qFDS2QNYXIH----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.w3schools.com/js/pic_htmltree.gif
+
+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
+
+------MultipartBoundary--EwmNm6WB2aAvt1dPpsgk0HG0zItqpm7qFDS2QNYXIH------
